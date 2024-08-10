@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #151740;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between text and image */
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-section {
+    flex: 1;
+    max-width: 50%; /* Allows image to take up to half of the container width */
+    padding-left: 20px;
+}
+
+.image-section img {
+    width: 100%; /* Ensures the image fills its container */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.text-section {
+    flex: 1;
+    max-width: 45%; /* Adjusted width to ensure text doesn’t go too far right */
+    padding-right: 40px; /* Added padding to the right for better spacing */
+    text-align: left;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+.text-section h1 {
+    font-size: 75px; /* Adjusted for better balance */
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.text-section h2 {
+    font-size: 50px; /* Adjusted for better balance */
+    color: #CA68F9;
+    margin-bottom: 20px;
+}
+
+.text-section .intro {
+    font-size: 40px; /* Increased font size for larger paragraph text */
+    color: #cdcdcd;
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 40px; /* Added space after introductory text */
+}
+
+.text-section p {
+    font-size: 45px; /* Increased font size for larger paragraph text */
+    color: #ffffff;
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 40px; /* Added space after the list heading */
+}
+
+.text-section ul {
+    padding-left: 20px; /* Adds padding to list items */
+    margin: 0;
+}
+
+.text-section ul li {
+    font-size: 30px; /* Larger font size for list items */
+    margin-bottom: 30px;
+    color: #ffffff; /* Increased space between list items */
+}
+
+.text-section strong {
+    font-weight: bold;
+    color:#CA68F9;
+    font-size: 35px; /* Ensures text before colons is bold */
+}
+
+.text-section .highlight {
+    color: #CA68F9; /* Applies the desired color to the highlighted text */
+    font-size: 50px; /* Ensures the font size is consistent with other paragraphs */
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 15px 30px; 
+    font-size: 1.5em; 
+    color: #fff;
+    background-color: #A119E0;
+    text-decoration: none;
+    border-radius: 8px; 
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.learn-more-button:hover {
+    background-color: #8b0eaf;
+}
